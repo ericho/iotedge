@@ -12,7 +12,7 @@ namespace Microsoft.Azure.Devices.Edge.Hub.E2E.Test
     using Xunit;
 
     [E2E]
-    [Collection("Microsoft.Azure.Devices.Edge.Hub.E2E.Test")]
+    //[Collection("Microsoft.Azure.Devices.Edge.Hub.E2E.Test")]
     public class EdgeToDeviceMethodTest : IClassFixture<ProtocolHeadFixture>
     {
         [Theory]
